@@ -28,6 +28,11 @@ yarn-error.log
 !.vscode/extensions.json
 .history/*
 
+# Permitir la carpeta `ecommerce` y su contenido
+# Si `ecommerce` fue excluida por otra regla, añadimos excepciones
+!ecommerce/
+!ecommerce/**
+
 # Miscellaneous
 /.angular/cache
 .sass-cache/

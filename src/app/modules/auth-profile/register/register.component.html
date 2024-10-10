@@ -1,0 +1,56 @@
+<div class="axil-signin-area">
+
+    <!-- Start Header -->
+    <div class="signin-header">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <a href="index.html" class="site-logo"><img src="./assets/images/logo/logo.png" alt="logo"></a>
+            </div>
+            <div class="col-md-6">
+                
+            </div>
+        </div>
+    </div>
+    <!-- End Header -->
+
+    <div class="row">
+        
+        <div class="col-lg-6 offset-xl-2">
+            <div class="axil-signin-form-wrap">
+                <div class="axil-signin-form">
+                    <h3 class="title">Crear una nueva cuenta</h3>
+                    <p class="b2 mb--55">Rellena todos los datos para registrarse</p>
+                    <form class="singin-form">
+                        <div class="form-group">
+                            <label>Nombres completos: *</label>
+                            <input type="text" class="form-control" name="name" [(ngModel)]="name">
+                        </div>
+                        <div class="form-group">
+                            <label>Apellidos completos: *</label>
+                            <input type="text" class="form-control" name="surname" [(ngModel)]="surname">
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" class="form-control" name="email" [(ngModel)]="email">
+                        </div>
+                        <div class="form-group">
+                            <label>Contraseña: *</label>
+                            <input type="password" class="form-control" name="password" [(ngModel)]="password">
+                        </div>
+                        <div class="form-group">
+                            <label>Contraseña: *</label>
+                            <input type="password" class="form-control" name="repeat_password" [(ngModel)]="repeat_password">
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="axil-btn btn-bg-primary submit-btn" (click)="registro()">Registrar cuenta</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-4 col-lg-6 bg2">
+            <div class="axil-signin-banner bg_image bg_image--10">
+            </div>
+        </div>
+    </div>
+</div>
